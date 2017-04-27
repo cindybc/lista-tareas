@@ -70,4 +70,4 @@ listaC.innerHTML += "<li>"+"<b>" + "Tarea: " +"</b>" +el.title +"</li><br>";
 function nuevaLista(){
   var res1=document.getElementById("tarea").value; //Me entrega el valor ingresado por el usuario.
   listaC.innerHTML+="<li>"+"<b>" +"Tarea: " +"</b>" + res1+ "</li><br>";
-}; // Se realiza una functión con el valor ingresado del usuario y se genera una lista con los datos.Y utilizo el innerHTML para que se imprima, cuando se ocupe le boton "ingresar".
+}; // Se realiza una functión con el valor ingresado del usuario y se genera una lista con los datos.Y utilizo el innerHTML para que se imprima, cuando se ocupe el boton "ingresar".
