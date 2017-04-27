@@ -62,12 +62,12 @@ var res=[
   ];
 
 
-var listaC = document.getElementById("lista");
+var listaC = document.getElementById("lista"); //Se llama al id donde guardare la lista.
 res.forEach(function(el){
 listaC.innerHTML += "<li>"+"<b>" + "Tarea: " +"</b>" +el.title +"</li><br>";
-});
+}); // Genero una función con forEach para poder recorrer todo el arreglo de objetos. Generando una lista de las tareas ingresadas.Y utilizo el innerHTML para que se imprima
 
 function nuevaLista(){
-  var res1=document.getElementById("tarea").value;
+  var res1=document.getElementById("tarea").value; //Me entrega el valor ingresado por el usuario.
   listaC.innerHTML+="<li>"+"<b>" +"Tarea: " +"</b>" + res1+ "</li><br>";
-}; 
+}; // Se realiza una functión con el valor ingresado del usuario y se genera una lista con los datos.Y utilizo el innerHTML para que se imprima, cuando se ocupe le boton "ingresar".
