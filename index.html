@@ -5,13 +5,17 @@
 	<title>Lista de Tareas</title>
 </head>
 <body>
-   <form id="ingreso">
+ <h1>Lista de Tareas</h1>
+   <div>
      Tarea: <input type="text" id="tarea" placeholder="Ingrese su tarea">
-   </form>
-   <button onclick="lista()">Ingresar</button>
-   </ul>
-   <ul class="list" id="lista"></ul>
-   <ul class="listaNueva" id="nueva"></ul>
+     <button onclick="nuevaLista()">Ingresar</button>
+    </div> 
+
+   <div>
+     <ul id="lista">
+     </ul>
+   </div>
+
    <script src="js/jscript.js"></script>
 	
 </body>

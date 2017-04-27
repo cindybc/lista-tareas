@@ -62,14 +62,12 @@ var res=[
   ];
 
 
-/*var listaC = document.getElementById("lista");
+var listaC = document.getElementById("lista");
 res.forEach(function(el){
 listaC.innerHTML += "<li>"+"<b>" + "Tarea: " +"</b>" +el.title +"</li><br>";
-});*/
+});
 
-var nuevita= document.getElementById("nueva");
-
-function lista(){
+function nuevaLista(){
   var res1=document.getElementById("tarea").value;
-  nuevita.innerHTML+="<li>"+"<b>" +"Tarea: " +"</b>" + res1+ "</li><br>";
-};
+  listaC.innerHTML+="<li>"+"<b>" +"Tarea: " +"</b>" + res1+ "</li><br>";
+}; 
